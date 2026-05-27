@@ -1,0 +1,450 @@
+Sensor_ID,Tag_Name
+,Time
+[1:12],L1_DCVAH Act Position
+[1:13],L1_PR5 Act Speed
+[1:14],L1_PR5 Set Speed
+[1:15],L1_PR5 Act Torque
+[1:17],L1_PR1_ActSpeed
+[1:19],L1_PR1_ActTorque
+[1:21],L1_CVR KNIVES POSITION
+[1:22],L1_PR2_ActSpeed
+[1:24],L1_PR2_ActTorque
+[1:25],L1_PR3_ActSpeed
+[1:27],L1_PR3_ActTorque
+[1:30],L1 bar temperature
+[1:31],L1_PR4_ActSpeed
+[1:33],L1_PR4_ActTorque
+[1:34],L1_DCVRD Act Position
+[1:36],L1_DCVR Act Position
+[1:40],Speed from SpeedMeter L1
+[1:60],L1_PR2 Roll Closing Pressure
+[1:61],L1_PR3 Roll Closing Pressure
+[1:62],L1_PR4 Roll Closing Pressure
+[1:63],L1_PR5 Roll Closing Pressure
+[1:68],E35_CVAH_ActualRotorPosition
+[1:69],L1_PR2 ACTUAL CURRENT
+[1:70],L1_PR3 ACTUAL CURRENT
+[1:71],L1_PR1 ACTUAL CURRENT
+[1:72],L1_CVAH ACTUAL CURRENT
+[1:73],E35_DCVAH_Actual torque
+[1:74],L1_CVR Speed feedback from drive
+[1:75],L1_CVR torque feedback from drive
+[1:76],L1_CVR output current feedback from drive
+[1:78],L1_DCVR Speed feedback from drive
+[1:79],L1_DCVR torque feedback from drive
+[1:80],L1_DCVR output current feedback from drive
+[1.182],E35PLC01 Mat.det. HMD34 CVRD entry L1
+[1.183],E35PLC01 Mat.det. HMD35 TWC1A entry
+[1.193],E35PLC01 Mat.det. HMD38 TWC1A entry (HW Interrupt)
+[1.194],E35PLC01 Mat.det. HMD38 TWC1B entry (HW Interrupt)
+[1.195],E10PLC01 Mat.det. HMD19 S18 exit L1
+[1.196],E10PLC01 Mat.det. HMD26 CVR entry L1
+[1.197],E10PLC01 Mat.det. HMD27 Looper at FFB entry L1
+[1.198],E10PLC01 Mat.det. HMD28 FFB exit L1
+[1.200],E35PLC01 Mat.det. HMD36 TWC1B entry
+[1.210],"L1_PR4 Rolls closing/opening, sol.valve"
+[3:18],L1_DCVAH First Head Pos
+[3:19],L1_DCVAH New Head Pos
+[3:21],L1_DCVAH Remain Length before L1_CVAH
+[3:25],L1_DCVR Remain length before DCVR
+[5:0],L2_DCVRD Act Position
+[5:1],L2_DCVAH Act Position
+[5:18],L2_PR2_ActTorque
+[5:19],L2_PR2_ActSpeed
+[5:21],L2_PR3_ActTorque
+[5:22],L2_PR3_ActSpeed
+[5:24],L2_PR4_ActTorque
+[5:25],L2_PR4_ActSpeed
+[5:27],L2_PR1_ActSpeed
+[5:29],L2_PR1_ActTorque
+[5:36],CVRL-2 KNIVES POSITION
+[5:44],L2_DCVRD Actual Position for PID
+[5:46],L2_DCVR Act Position
+[5:57],Line-2 bar temp before cooling bed
+[5:63],L2_PR2 Roll Closing Pressure
+[5:64],L2_PR3 Roll Closing Pressure
+[5:65],L2_PR4 Roll Closing Pressure
+[5:66],L2_PR5 Roll Closing Pressure
+[5:68],L2_PR3  ACTUAL CURRENT
+[5:69],L2_PR1 ACTUAL CURRENT
+[5:70],L2_DCVAH_Actual Torque
+[5:71],L2_DCVAH_Actual Speed
+[5:74],L2_DCVAH_Position error
+[5:76],L2_CVAH_Actual Rotor position
+[5:77],L2_DCVAH_Synchronisation error at cut
+[5:80],L2_DCVR output current feedback from drive
+[5:81],L2_PR4 ACTUAL CURRENT
+[5.32],E10PLC01 Mat.det. HMD31 FFB exit L2
+[5.33],E36PLC01 Mat.det. HMD37 CVRD entry L2
+[5.34],E36PLC01 Mat.det. HMD38 TWC2A entry
+[5.35],E36PLC01 Mat.det. HMD39 TWC2B entry
+[5.44],E10PLC01 Mat.det. HMD19 S18 exit L2
+[5.45],E10PLC01 Mat.det. HMD29 CVR entry L2
+[5.46],E10PLC01 Mat.det. HMD31 FFB entry L2
+[5.120],"L2_PR2 Rolls closing/opening, sol.valve"
+[5.121],"L2_PR3 Rolls closing/opening, sol.valve"
+[5.122],"L2_PR4 Rolls closing/opening, sol.valve"
+[5.155],L2_PR1 Closing comand
+[5.157],E36PLC01 Mat.det. HMD38 TWC2A entry (HW Interrupt)
+[5.158],E36PLC01 Mat.det. HMD39 TWC2B entry (HW Interrupt)
+[6:5],L2_DCVAH First Head Pos
+[6:6],L2_DCVAH New Head Pos
+[6:8],L2_DCVAH Remain Length before CVAH L2
+[6:9],L2_DCVR First head position
+[6:10],L2_DCVR Remain length before DCVR
+[6:12],L2_DCVR Tail Cut off Length
+[9:0],Stand 01_Torque
+[9:1],Stand 02_Torque
+[9:2],Stand 03_Torque
+[9:3],Stand 04_Torque
+[9:4],Stand 05_Torque
+[9:5],Stand 06_Torque
+[9:6],Stand 07_Torque
+[9:7],Stand 08_Torque
+[9:8],Stand 09_Torque
+[9:9],Stand 10_Torque
+[9:10],Stand 11_Torque
+[9:11],Stand 12_Torque
+[9:12],Stand 13_Torque
+[9:13],Stand 14_Torque
+[9:14],Stand 15_Torque
+[9:15],Stand 16_Torque
+[9:16],Stand 17_Torque
+[9:17],Stand 18_Torque
+[9:22],Stand 01_LineSpeed
+[9:23],Stand 01_RPM
+[9:24],Stand 02_LineSpeed
+[9:25],Stand 02_RPM
+[9:26],Stand 03_LineSpeed
+[9:27],Stand 03_RPM
+[9:28],Stand 04_LineSpeed
+[9:29],Stand 04_RPM
+[9:30],Stand 05_LineSpeed
+[9:31],Stand 05_RPM
+[9:32],Stand 06_LineSpeed
+[9:33],Stand 06_RPM
+[9:34],Stand 07_LineSpeed
+[9:35],Stand 07_RPM
+[9:36],Stand 08_LineSpeed
+[9:37],Stand 08_RPM
+[9:38],Stand 09_LineSpeed
+[9:39],Stand 09_RPM
+[9:41],Stand 10_LineSpeed
+[9:42],Stand 10_RPM
+[9:43],Stand 11_LineSpeed
+[9:44],Stand 11_RPM
+[9:45],Stand 12_LineSpeed
+[9:46],Stand 12_RPM
+[9:47],Stand 13_LineSpeed
+[9:48],Stand 13_RPM
+[9:49],Stand 14_LineSpeed
+[9:50],Stand 14_RPM
+[9:51],Stand 15_LineSpeed
+[9:52],Stand 15_RPM
+[9:53],Stand 16_LineSpeed
+[9:54],Stand 16_RPM
+[9:55],Stand 17_LineSpeed
+[9:56],Stand 17_RPM
+[9:57],Stand 18_LineSpeed
+[9:58],Stand 18_RPM
+[9:60],BC set Interbillet value from HMI
+[9:61],Loop_Height Stand 9-10
+[9:62],Loop_Height Stand 10-11
+[9:63],Loop_Height Stand 11-12
+[9:64],Loop_Height Stand 12-13
+[9:65],Loop_Height Stand 13-14
+[9:66],Loop_Height Stand 14-15
+[9:67],Loop_HeightStand 15-16
+[9:68],Loop_Height Stand 16-17
+[9:69],Loop_Height Stand 17-18
+[9:70],Mill Discharge time
+[9:71],BC Billet discharge delay after billet discharge command
+[9:73],RT_2_FEA_ACT_SPEED
+[9:74],RT_1_FEA_SET_SPEED
+[9:75],RT_2_FEA_SET_SPEED
+[9:76],FFB Line 1 Loop Height
+[9:77],FFB Line 2 Loop Height
+[9:80],BILLCALL-WRK_DB.DischargeDelay
+[9:81],BILLCALL-WRK_DB.DischDelayCnt
+[9.16],Stand 12 downstream looper lifting command
+[9.17],Stand 13 downstream looper lifting command
+[9.18],Stand 14 downstream looper lifting command
+[9.19],Stand 15 downstream looper lifting command
+[9.20],Stand 16 downstream looper lifting command
+[9.21],Stand 17 downstream looper lifting command
+[9.27],Billet call command
+[9.29],Stand 9 downstream looper lifting command
+[9.30],Stand 10 downstream looper lifting command
+[9.31],Stand 11 downstream looper lifting command
+[9.54],Billet call enable
+[9.55],Call time elapsed
+[9.59],Billet discharge command
+[9.70],Looper FFB L2 HMD 27 Status
+[9.72],Billet in last position
+[9.73],BILLET CALL CMD to FURNACE
+[9.76],FFB Line 1 Looper Cmd
+[9.77],FFB Line 2 Looper Cmd
+[9.226],Ghost Rolling
+[10:0],BILLCALL-WRK_DB.SetInterbillet
+[10:1],BILLCALL-WRK_DB.RouInterbilletCnt
+[10:2],BILLCALL-WRK_DB.CallTimeCnt
+[10:3],BILLCALL-WRK_DB.BilletCallTime
+[10:4],BILLCALL-WRK_DB.RouRollTimeCnt
+[10:5],CurrentBilletRollingTimeInStand1
+[10:6],LastBilletRollingTimeInStand1
+[10:7],Fce_Delay
+[10:22],BilletDelay
+[10:29],RT2 REF SPEED
+[10:30],RT1_1 REF SPEED
+[11:9],STAND_1_ACT_ELONGATION
+[11:10],STAND_2_ACT_ELONGATION
+[11:11],STAND_3_ACT_ELONGATION
+[11:12],STAND_4_ACT_ELONGATION
+[11:13],STAND_5_ACT_ELONGATION
+[11:14],STAND_6_ACT_ELONGATION
+[11:15],STAND_7_ACT_ELONGATION
+[11:16],STAND_8_ACT_ELONGATION
+[11:17],STAND_9_ACT_ELONGATION
+[11:18],STAND_10_ACT_ELONGATION
+[11:19],STAND_11_ACT_ELONGATION
+[11:20],STAND_12_ACT_ELONGATION
+[11:21],STAND_13_ACT_ELONGATION
+[11:22],STAND_14_ACT_ELONGATION
+[11:23],STAND_15_ACT_ELONGATION
+[11:24],STAND_16_ACT_ELONGATION
+[11:25],STAND_17_ACT_ELONGATION
+[11:26],STAND_18_ACT_ELONGATION
+[12:19],FFB Line 1 Torque Act
+[12:20],FFB Line 1 RPM Act
+[12:21],FFB Line 1 Line Speed
+[12:22],FFB Line 2 Torque Act
+[12:23],FFB Line 2 RPM Act
+[12:24],FFB Line 2 Line Speed
+[12:42],Stand 16 current
+[12:43],Stand 18 current
+[12:44],Master speed percentage
+[12:53],Stand 01 current
+[12:54],Stand 02 current
+[12:55],Stand 03 current
+[12:56],Stand 04 current
+[12:57],Stand 05 current
+[12:58],Stand 06 current
+[12:59],Stand 07 current
+[12:60],Stand 08 current
+[12:61],Stand 09 current
+[12:62],Stand 10 current
+[12:63],Stand 11 current
+[12:64],Stand 12 current
+[12:65],Stand 13 current
+[12:66],Stand 14 current
+[12:67],Stand 15 current
+[12:68],Stand 17 current
+[12:69],FFB1 Motor Current
+[12:70],FFB2 Motor Current
+[12:71],PR0 Motor Current
+[12:72],PR0 Motor Torque
+[12:73],PR0 Motor RPM
+[13:0],STAND 1 ENTRY BILLET TEMPERATURE
+[17:0],TB2B Actual Torque
+[17:2],TB 1A Actual Torque
+[17:3],TB1B Actual Torque
+[17:6],TB1A_Actual Speed
+[17:7],TB1B_Actual Speed
+[17:9],TB2A_Actual Speed
+[17:12],TB2B_Actual Speed
+[17:13],TWC1A Act Pos
+[17:14],TWC1B Act Pos
+[17:15],TWC2A Act Pos
+[17:16],TWC2B Act Pos
+[17:17],TB2A Actual Torque
+[17:18],TB1A Actual rolls pressure
+[17:19],TB2A Actual rolls pressure
+[17:20],TB2B Actual rolls pressure
+[17:21],TB1B Actual rolls pressure
+[17:28],TB2A Head Pos
+[17:29],TB2A Tail Pos
+[17:30],TB2B Head Pos
+[17:31],TB2B Tail Pos
+[17:33],TB1A Head Pos
+[17:34],TB1A Tail Pos
+[17:35],TB1B Head Pos
+[17:36],TB1B Tail Pos
+[17:47],TB1A Motor Current
+[17:48],TB1B Motor Current
+[17:49],TB2A Motor Current
+[17:50],TB2B Motor Current
+[17:52],TWC 2A Speed feedback
+[17:54],TWC 2B Speed feedback
+[17:56],TWC 1A Speed feedback
+[17:58],TWC 1B Speed feedback
+[17:59],TWC1A Torque Feedback
+[17:60],TWC1B Torque Feedback
+[17:61],TWC2A Torque Feedback
+[17:62],TWC2B Torque Feedback
+[17:63],TWCH_1A Safety time
+[17:64],TWCH_1B Safety time
+[17:65],TWCH_2A Safety time
+[17:66],TWCH_2B Safety time
+[17.16],TB2A Rolls close cmd
+[17.17],TB2A Rolls close Hi pres
+[17.18],TB2B Rolls close cmd
+[17.19],TB2B Rolls close Hi pres
+[17.28],TB1A Rolls close cmd
+[17.29],TB1A Rolls close Hi pres
+[17.30],TB1B Rolls close cmd
+[17.31],TB1B Rolls close Hi pres
+[17.35],TB1A Breaking cycle Active
+[17.36],TB1B Breaking cycle Active
+[17.37],TB2A Breaking cycle Active
+[17.38],TB2B Breaking cycle Active
+[17.59],HMD TWC2A On Delay (for cobble detection)
+[17.60],HMD TWC2B On Delay (for cobble detection)
+[21:0],DIV_SH2_SpeedRef(Drive Unit)
+[21:2],DSH2_Theor_Position
+[21:3],DSH2_Drive_Speed_Feedback
+[21:4],DSH2_Theor_Speed
+[21:6],SH3 Speed Ref to Drive
+[21:8],SH3 PR SET Speed
+[21:9],SH3 PR ACT Speed
+[21:10],SH3 PR ACT Torque
+[21:12],QTB_PR Act Speed
+[21:13],QTB_PR Set  Speed
+[21:14],QTB_PR Act Torque
+[21:23],DIV_SH2_Act_Position (PID)
+[21:25],DIV_SH2_SET_Position (PID)
+[21:28],SH1_Act_Position(forPID)
+[21:29],SH1_Teor_Position (for PID)
+[21:30],SH2_Act_Position(forPID)
+[21:31],SH2_Teor_Position (for PID)
+[21:32],SH3_Act_Position(forPID)
+[21:33],SH3_Teor_Position (for PID)
+[21:43],APR_Headl_Position_BUF1
+[21:44],APR_Headl_Position_BUF2
+[21:45],SH1_WORK_DB DRIVE IN TORQUE FEEDBACK
+[21:46],SH1_WORK_DB DRIVE IN SPEED FEEDBACK
+[21:47],SH1_WORK_DB DRIVEOUT SPEED REF
+[21:48],SH1_WORK_DB DRIVE IN CURRENT FEEDBACK
+[21:49],SH2_WORK_DB DRIVE IN TORQUE FEEDBACK
+[21:50],SH2_WORK_DB DRIVE IN CURRENT FEEDBACK
+[21:51],SH2_WORK_DB DRIVEOUT SPEED REF
+[21:52],SH2_WORK_DB DRIVE IN SPEED FEEDBACK
+[21:55],SH3 Motor Actual Speed
+[21:56],SH3 Motor Actual Torque
+[21:57],SH3 Motor Actual Current
+[21.8],HMD33_SH3_ExitSide
+[21.10],ApronDiverter_Valve
+[21.11],Apron_LIFT_Valve
+[21.12],Apron_LOWERING_Valve
+[21.14],SH1_PH0
+[21.15],SH1_PH01
+[21.102],SH1_HeadCount
+[21.103],SH1_TailCount
+[21.125],SH2_HeadCount
+[21.126],SH2_TailCount
+[21.184],SH2 PH0
+[21.185],SH2 PH01
+[21.186],SH2 PH1
+[21.187],SH2 PH2
+[22:3],SH1_HeadPosition
+[22:4],SH1_TailPosition
+[22:5],SH2_HeadPosition
+[22:6],SH2_TailPosition
+[22:7],SH3_HeadPosition
+[22:8],SH3_TailPosition
+[22:9],SH3_NEW_HeadPosition
+[22:33],APR_Headl_Position_BUF3
+[22:34],APR_Head_Position_BUF4
+[22:35],APR_Headl_Position_BUF5
+[9.101],MAT_PRESENCE
+,OWS_OptBarMinSaleNr L2
+,OWS_LastBarMinSaleNr L2
+[9.0],Stand 09 downstream HMD
+[9.1],Stand 10 downstream HMD
+[9.8],Furnace exit Desaler HMD
+[9.2],Stand 11 downstream HMD
+[9.3],Stand 12 downstream HMD
+[9.4],Stand 13 upstream HMD
+[9.5],Stand 13 downstream HMD
+[9.6],Stand 14 downstream HMD
+[9.7],Stand 15 downstream HMD
+[9.9],Stand 01 upstream HMD
+[9.10],HMD on Fce exit R.Table Exit
+[9.11],Stand 02 downstream HMD
+[9.12],Stand 04 downstream HMD
+[9.13],Stand 06 downstream HMD
+[9.14],Stand 07 upstream HMD
+[9.15],Stand 08 downstream HMD
+[9.24],Stand 16 downstream HMD
+[9.25],Stand 17 downstream HMD
+[9.26],Stand 18 downstream HMD
+[9.32],Stand 10_Material_Presence
+[9.33],Stand 11_Material_Presence
+[9.34],Stand 12_Material_Presence
+[9.35],Stand 13_Material_Presence
+[9.36],Stand 14_Material_Presence
+[9.37],Stand 15_Material_Presence
+[9.38],Stand 16_Material_Presence
+[9.39],Stand 17_Material_Presence
+[9.40],Stand 02_Material_Presence
+[9.41],Stand 03_Material_Presence
+[9.42],Stand 04_Material_Presence
+[9.43],Stand 05_Material_Presence
+[9.44],Stand 06_Material_Presence
+[9.45],Stand 07_Material_Presence
+[9.46],Stand 08_Material_Presence
+[9.47],Stand 09_Material_Presence
+[9.23],Stand 01_Material_Presence
+[9.56],Stand 18_Material_Presence
+[11:27],FFB1_ACT_ELONGATION
+[11:28],FFB2_ACT_ELONGATION
+[5:41],Speed calibr factor with HMD L2
+[9.74],Permissive for Auto Discharging
+[9.206],FFB1 Material Presence
+[9.207],FFB2 Material Presence
+[21.89],SH2_Chop Req main flag OB1
+[21.90],SH1_Chop Req main flag OB1
+[6:3],L2_DCVRD_First Head Position Line 2
+[3:17],L1_DCVRD_First Head Position
+[1:59],E35_CVAH_Actual torque
+[11:0],Rolling_profile_dimension
+[1:16],L1_PR5 Set Torque
+[1:18],L1_PR1_SetSpeed
+[1:20],L1_PR1_SetTorque
+[1:23],L1_PR2_SetSpeed
+[1:26],L1_PR3_SetSpeed
+[1:32],L1_PR4_SetSpeed
+[1:11],E35_DCVAH_TheorPos
+[1:35],L1_DCVR Set Position for PID
+[5:17],E36_DCVAH_TheorPos
+[5:49],L2_DCVR Set Position for PID
+,L2 bar temperature before TB
+[21:21],STAND 18 EXIT PYROMETER
+,BAR TEMPERATURE ON COOLING BED
+,Discharging Pyrometer
+,BACK END TEMP OF BILLET
+,FRONT END TEMP OF BILLET
+,"L1_PR2 Rolls closing/opening, sol.valve"
+,"L1_PR3 Rolls closing/opening, sol.valve"
+[1.221],L1_PR1 Closing Comand
+,Calibr speed for DCVAH L1
+[5:51],Calibr speed for L2_DCVAH
+,L1 CVR BAR SPEED
+,L2 CVR BAR SPEED
+,L1_WB12_Input_PressureFilt_Q
+,L1_WB12_Out_PressureFilt_Q
+,L1_WB34_Input_PressureFilt_Q
+,L1_WB34_Out_PressureFilt_Q
+,L1_WB12_Actual Flow Rate_Q
+,L1_WB34_Actual Flow Rate_Q
+,L2_WB34_Input_PressureFilt_Q
+,L2_WB34_Output_PressureFilt_Q
+,L2_WB12_Input_PressureFilt_Q
+,L2_WB12 _ActualFlowRate_Q
+,L2_WB34_Actual FlowRate_Q
+,L2_WB12_Output_PressureFilt_Q
+,DCW_DEL_TEMP_TOP
+,ACTUAL NUMBERS OF QTB BOOTER PUMP RUNNING
+[2:1],L1_DCVR First head position
+[3:14],L1_DCVRD  Out.Tail Position
+,WTP6_600LINE_DELIVERY FLOW
+,CB_Actual position
