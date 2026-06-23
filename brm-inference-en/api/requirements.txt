@@ -1,0 +1,8 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+redis==5.0.1
+influxdb-client==1.43.0
+motor==3.4.0
+pymongo==4.6.1
+python-dotenv==1.0.1
+websockets==12.0

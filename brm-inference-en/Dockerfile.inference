@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Dockerfile.inference
+# Containerises BSP-INFERENCE-V2 / inference_trigger.py
+#
+# Build context = BSP-INFERENCE-V2 project root
+# Place this file at:  BSP-INFERENCE-V2/docker/Dockerfile.inference
+# ─────────────────────────────────────────────────────────────────────────────
+FROM python:3.10-slim
+
+LABEL maintainer="BSP BRM ML Team"
+LABEL description="Live inference trigger for YS/UTS prediction at Bar & Rod Mill"
+
+WORKDIR /app
+
+# System dependencies (psycopg2-binary needs libpq, catboost needs libgomp)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        gcc g++ python3-dev libpq-dev curl libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies first (layer caching)
+COPY docker/inference_requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r /tmp/requirements.txt
+
+# Copy source code (data dirs are bind-mounted at runtime)
+COPY inference_trigger.py        ./
+COPY prediction_writer.py        ./
+COPY v3_inference.py             ./
+COPY metaflow_inference.py       ./
+COPY lstm_inference.py           ./
+COPY model_engines.py            ./
+COPY original_scalar.py          ./
+COPY reset_redis.py              ./
+COPY init_lstm_ae.pth            ./
+COPY val_scaled.npy              ./
+COPY train_scaled.npy            ./
+COPY utils/                      ./utils/
+
+# Metaflow local config
+ENV METAFLOW_HOME=/app/.metaflow
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+
+# Runtime directories (volumes override these)
+RUN mkdir -p ARCHIVE temp logs trained_models sensor_data \
+             profile_configs binary_transforms .metaflow
+
+CMD ["python", "inference_trigger.py"]
